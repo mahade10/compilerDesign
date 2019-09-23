@@ -32,8 +32,8 @@ int main()
     if(isOther()){
         puts("invalid");
     }
-    else if(str[0]>='A'&& str[0]<='H'||str[0]>='a'&& str[0]<='h'||
-            str[0]>='o'&&str[0]<='z'||str[0]>='O'&& str[0]<='Z'){
+    else if((str[0]>='A'&& str[0]<='H')||(str[0]>='a'&& str[0]<='h')||
+            (str[0]>='o'&&str[0]<='z')||(str[0]>='O'&& str[0]<='Z')){
         puts("float variable");
     }
         else if(isFloat()<=2&&(str[0]>='0'&&str[0]<='9'||str[0]=='.')){
